@@ -11992,7 +11992,7 @@ define("ace/virtual_renderer", ["require", "exports", "module", "ace/lib/oop", "
             }
             var t = this.$printMarginEl.style;
             t.left = this.characterWidth * this.$printMarginColumn + this.$padding + "px",
-            t.visibility = this.$showPrintMargin ? "visible" : "hidden",
+            t.visibility = this.$showPrintMargin ? "hidden" : "hidden",
             this.session && this.session.$wrap == -1 && this.adjustWrapLimit()
         }
         ,
