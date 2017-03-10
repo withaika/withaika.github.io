@@ -188,7 +188,7 @@ html,body {
 
 #pageContentWrapper {
     position: absolute;
-    top: 46px;
+    top: 0px;
     bottom: 0;
     background-color: #efefef
 }
